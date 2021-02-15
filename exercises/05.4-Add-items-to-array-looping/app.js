@@ -8,4 +8,8 @@ var arr = [4,5,734,43,45];
 // }
 //*****************
 
+for (i=1; i<=10; i++){
+    arr.push(randomLength = Math.floor(Math.random() * 100));
+}
+
 console.log(arr);

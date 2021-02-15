@@ -2,4 +2,8 @@ let allNames = ["Romario","Boby","Roosevelt","Emiliy", "Michael", "Greta", "Patr
 
 //your code here
 
-console.log(resultingNames);
+let onlyFirstR = allNames.filter(function(word){
+    return (word.substring(0,1) === 'R');
+});
+
+console.log(onlyFirstR);
